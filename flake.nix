@@ -3,10 +3,10 @@
 
   inputs = {
     # These will be overridden by the user's flake
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
+    nixpkgs.url = "github:NixOS/nixpkgs/master";
     
     quickshell = {
-      url = "git+https://git.outfoxxed.me/outfoxxed/quickshell?rev=00858812f25b748d08b075a0d284093685fa3ffd";
+      url = "git+https://git.outfoxxed.me/outfoxxed/quickshell";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
