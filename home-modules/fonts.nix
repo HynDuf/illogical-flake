@@ -3,13 +3,13 @@ inputs:
 { config, lib, pkgs, ... }:
 
 let
-  cfg      = config.services.illogical-flake;
+  cfg      = config.programs.illogical-impulse;
   nurPkgs  = inputs.nur.legacyPackages.${pkgs.system};
   customPkgs = import ../pkgs { inherit pkgs; };
 in
 {
   config = lib.mkIf cfg.enable {
-    fonts.packages = with pkgs; [
+    home.packages = with pkgs; [
       customPkgs.material-symbols
       rubik
       nurPkgs.repos.skiletro.gabarito
