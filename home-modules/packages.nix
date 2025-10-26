@@ -114,7 +114,6 @@ in
       # Note: breeze-icons not included to avoid Qt5/Qt6 conflicts with system config
 
       # Python with required packages for wallpaper analysis
-      pythonEnv
       eza  # Modern ls replacement
 
       # Minimal Qt/KDE packages (only what's needed for functionality)
