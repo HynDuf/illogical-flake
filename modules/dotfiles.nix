@@ -45,9 +45,6 @@ in
     in {
       home.stateVersion = "25.05";
 
-      # Disable home-manager's font management to avoid conflicts
-      fonts.fontconfig.enable = false;
-
       # Symlink OneUI icon themes for illogical-impulse
       home.file.".local/share/icons/OneUI-dark".source = "${customPkgs.illogical-impulse-oneui4-icons}/share/icons/OneUI-dark";
       home.file.".local/share/icons/OneUI-light".source = "${customPkgs.illogical-impulse-oneui4-icons}/share/icons/OneUI-light";
