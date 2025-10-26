@@ -149,3 +149,4 @@ home-manager switch --flake .#yourusername
 - **[end-4](https://github.com/end-4)** - Creator of the Illogical Impulse dotfiles
 - **[xBLACKICEx](https://github.com/xBLACKICEx)** - Original NixOS flake
 - **[outfoxxed](https://git.outfoxxed.me/outfoxxed/quickshell)** - QuickShell developer
+- **[HynDuf](https://github.com/HynDuf)** - Helped to resolve issues with the flake
